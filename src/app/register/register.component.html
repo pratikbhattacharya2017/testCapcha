@@ -1,0 +1,34 @@
+
+<h1>
+    <u>Job Portal Registration 2020</u>
+ </h1>
+ <table>
+   <tr>
+     <td> User Fullname : </td>
+     <td>
+      <input type="text" name="username" id="username" [(ngModel)]="registerDTO.userfullname"/>
+     </td>
+   </tr>
+   <tr>
+    <td>Email  Address</td>
+    <td>
+      <input type="text" name="email" id="username"/>
+    </td>
+  </tr>
+   <tr>
+    <td>Password :</td>
+     <td>
+       <input type="password" name="password" id="password">
+     </td>
+   </tr>
+   <tr>
+    <td>Confirm Password :</td>
+     <td>
+       <input type="password" name="confirmPassword" id="confirmPassword">
+     </td>
+   </tr>
+   <tr>
+       <td></td>
+     <td> <button name="register" value="register" (click)="register()">Register</button></td>
+   </tr>
+ </table>
